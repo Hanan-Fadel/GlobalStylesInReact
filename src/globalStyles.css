@@ -1,0 +1,63 @@
+/* Dark Mode styles */
+:global {
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #b8c1ec;
+    background-color: #0d1117;
+    height: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #b8c1ec;
+  }
+
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    background-color: #2a7df4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #1e5dd5;
+  }
+}
+
+/* Light Mode styles */
+:global {
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #0d1117;
+    background-color: #f0f6fc;
+    height: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #0d1117;
+  }
+
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    background-color: #2a7df4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #1e5dd5;
+  }
+}
